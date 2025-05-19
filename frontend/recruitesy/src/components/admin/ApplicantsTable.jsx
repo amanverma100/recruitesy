@@ -13,7 +13,7 @@ import {
 import { useSelector } from "react-redux";
 import axios from "axios";
 import { useState, useEffect } from "react";
-import { APPLICATION_API_END_POINT } from "@/utils/constant";
+import { APPLICATION_API_END_POINT } from "@/utils/endpoints";
 import toast from "react-hot-toast";
 
 const shortListingStatus = ["Accepted", "Rejected"];

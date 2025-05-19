@@ -14,7 +14,7 @@ import {
 } from "../ui/select";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import { JOB_API_END_POINT } from "@/utils/constant";
+import { JOB_API_END_POINT } from "@/utils/endpoints";
 import toast from "react-hot-toast";
 import { Loader2 } from "lucide-react";
 
